@@ -22,4 +22,5 @@ To run the experiment:-
 5. To get a csv file containing the analysis results, run "analyseGazeSegments.py" file.
 6. Run "User_Engagement_Analysis.ipnb" file to analyse the gaze data
 
-
+# Gaze Data file name convention
+The gaze data is saved in a folder named gaze_data. This folder has 2 seperate folder that is individual and group. The individual folder contains annotations obtained while annotating for single-party interaction whereas group folder contains annotations obtained while annotating for multi-party interaction. the filenames with keyword "xl" contain engagement annotations. The first numerical number in the filename suggest the video number on which coder annotated engagement.
